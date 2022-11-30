@@ -1,0 +1,21 @@
+.Login
+{
+    background-color:#ffffff;
+    padding: 140px 100px;
+}
+.Login
+{
+    background-color:#ffffff;
+    padding:20px 30px;
+
+}
+@media screen and (max-width:600px)
+{
+    .Login
+{
+    
+    padding: 140px 30px;
+
+}
+    
+}

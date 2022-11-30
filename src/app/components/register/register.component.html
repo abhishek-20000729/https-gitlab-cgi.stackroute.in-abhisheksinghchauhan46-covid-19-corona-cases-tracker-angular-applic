@@ -1,0 +1,88 @@
+<section class="Register">
+    <div class="Register col-lg-4 m-auto shadow-lg">
+        <form >
+            <h2 style = "text-align: center;" >Registration Form</h2>
+            <div class="mb-3" >
+              <label for="exampleInputUsername" class="form-label">User Name</label>
+              <input type="text"  class="form-control" id="honey" placeholder="Enter Name" required pattern="^[a-zA-Z]*">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmailid" class="form-label">Email ID</label>
+                <input type="email" class="form-control" id="honey"  placeholder="Enter Email" required>
+                <!--<div id="Emailid" class="form-text">Enter email ID</div>-->
+            </div>
+            
+            <div class="mb-3">
+              <label  class="form-label"> Password</label>
+              <input type="password" class="form-control" placeholder="Enter password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" placeholder="" required>
+            </div> 
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label">Check me out</label>
+            </div>
+
+            <button type="Register" aria-setsize="30px" class="btn btn-primary col-lg-12">Register</button>
+          
+          </form>
+        </div>
+            
+            
+</section>
+
+<!-- <form [formGroup]="registerForm" (ngSubmit) =" registerSubmitted" class="border p-3 rounded-3" >
+<div class="row g-0">
+    <div class="col text-center p-2 mb-3 bg-light">
+      <span class="fs-3">Register</span>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col mb-3">
+    <label for="firstname" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" formcontrolname="firstname" required>
+  </div>
+
+  <div class="col mb-3">
+    <label for="lastname" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" formcontrolname="lastname" required>
+  </div> 
+</div>
+
+<div  class="row">
+  <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control"   aria-setsize="30px" id="email" placeholder="Enter Email" formcontrolname="email">
+  </div><br>
+
+  <div  class="row">
+    <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control"  aria-setsize="30px" id="password" placeholder="Enter Password" formcontrolname="password">
+    </div><br>
+
+    <div  class="row">
+      <label for=" confirm password" class="form-label"> Confirm Password</label>
+        <input type="password"  aria-setsize="30px"class="form-control" id=" confirm password" placeholder="" formcontrolname="confirm password">
+      </div><br>
+
+      <div class=" form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label">Check me out</label>
+      </div><br>
+
+      <div class="row">
+        <div class=" col text-center">
+        <div class="d -grid">
+      
+      <button type="submit" aria-setsize="30px" class="btn btn-primary col-lg-12">Submit</button>
+        </div>
+        </div>
+      </div>
+
+
+</form> -->

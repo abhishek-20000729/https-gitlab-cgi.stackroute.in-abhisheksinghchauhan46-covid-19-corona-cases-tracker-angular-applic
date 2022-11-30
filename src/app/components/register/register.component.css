@@ -1,0 +1,43 @@
+.Register
+{
+    background-color:#6c757d;
+    padding: 140px 100px;
+}
+.Register
+{
+    background-color:#ffffff;
+    padding:20px 30px;
+
+}
+@media screen and (max-width:600px)
+{
+    .Register
+{
+    
+    padding: 140px 30px;
+
+}
+    
+} 
+/* form{
+    width:500px;
+} */
+
+
+
+
+/* }form{
+    width:500px;
+    border-color: rgb(75, 74, 74);
+    padding: 60px 50px;
+    background-color:white;
+    text-align: center;
+    align-items: center;
+
+
+} 
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+ } */

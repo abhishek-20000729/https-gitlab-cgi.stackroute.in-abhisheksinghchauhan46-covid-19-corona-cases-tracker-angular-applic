@@ -1,0 +1,22 @@
+.navbar
+{
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #000000;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    text-decoration: underline;
+}
+
+/* .container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
